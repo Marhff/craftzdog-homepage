@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Olá,eu sou desenvolvedor junior!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Marcos França
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Desenvolvedor ( Programador / Analista / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,29 +76,11 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Trabalho
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers.
+        Marcos é freelancer e desenvolvedor full-stack baseado em React.js, apaixonado por criar serviços/coisas digitais que deseja. Ele tem um talento especial para lançar produtos, desde o planejamento e design até a solução de problemas da vida real com código. Quando não está online, ele adora ficar com seus amigos.
+{' '}
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -108,7 +90,7 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            Meus trabalhos 
           </Button>
         </Box>
       </Section>
@@ -118,21 +100,26 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2001</BioYear>
+          Nasceu em Belo Horizonte , Brasil.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2018</BioYear>
+          Começou a  programar!
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2022</BioYear>
+          Começou a cursar Análise e Des. Sistemas
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
+          <BioYear>2022</BioYear>
+          Fundou a empresa{' '} 
+          <Link href="https://cubedev.com.br" target="_blank">
+             CubeDev
+          </Link>
+        </BioSection>
+        <BioSection>
+          <BioYear>2023 to present</BioYear>
           Working as a freelancer
         </BioSection>
       </Section>
@@ -142,21 +129,13 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Musica, IA, Machine Learning, Games é esportes no geral.
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Redes 
         </Heading>
         <List>
           <ListItem>
